@@ -1,4 +1,4 @@
-import User from "../models/user.model";
+import User from "../models/user.model.js";
 import { Webhook } from "svix";
 
 const clerkWebooks = async(req,res)=>{

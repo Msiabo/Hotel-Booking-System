@@ -2,9 +2,9 @@ import express from "express"
 import dotenv from "dotenv"
 import cors from "cors"
 import cookieParser from 'cookie-parser'
-import { connectDB } from "./db/connectDb";
+import { connectDB } from "./db/connectDb.js";
 import { clerkMiddleware } from '@clerk/express'
-import clerkWebooks from "./hooks/ClerkWebhooks";
+import clerkWebooks from "./hooks/ClerkWebhooks.js";
 
 dotenv.config();
 
